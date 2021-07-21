@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    margin-top: 13%;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 2px 12px 2px #1040be;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #bbbbbb;
+}
+
+.input-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bbbbbb;
+}
+
+#message {
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #444;
+    box-shadow: 0px 2px 12px 2px #1040be;
+    width: 55%;
+    color: #fff;
+}
+
+#message::placeholder {
+    color: #999;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#messageContent {
+    text-align: center;
+    color: #bbbbbb;
+    padding-bottom: 30px;
+}
+
+#submit {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #1040be, #077bc9);
+    box-shadow: 0px 2px 12px 2px #1040be;
+    color: #fff;
+    transition: .5s ease-in-out;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#submit:hover {
+    box-shadow: 0px 2px 12px 2px #077bc9;
+    transition: .5s ease-in-out;
+}
+

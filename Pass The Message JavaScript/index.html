@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass The Message Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="heading">
+            <h1>What message would you like to pass?</h1>
+        </div>
+
+        <div id="form">
+            <div class="input-alignment">
+                <input type="text" id="message" placeholder="Your message..." spellcheck="true" autocomplete="off" >
+            </div>
+
+            <div class="button-alignment">
+                <input type="submit" id="submit" value="Submit" onclick="submitMessage()">
+            </div>
+        </div>
+
+        <div class="sub-heading">
+            <h3>Last message delivered :</h3>
+        </div>
+
+        <div id="messageContent">
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
